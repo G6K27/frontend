@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*NAVIGATION*/
+
+nav{
+    background-color: #28a745;
+    margin: -1%;
+}
+
+img{
+    display: block;
+    width: 10%;
+    height: auto;
+    justify-content:center;
+}
+
+ul{
+    margin: 0;
+    padding: 0em 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    gap: 5%;
+    list-style-type: none;
+}
+
+li a{
+    text-decoration-line: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+}
+
+li a:hover{
+    color: black;
+    text-decoration: underline overline dotted rgb(196, 196, 196);
+}
+
+/*CONTENU*/
+
+main{
+    padding: 5%;
+    flex-grow: 3;
+    text-align: center;
+}
+
+h1{
+    padding: 1%;
+}
+
+p{
+    padding: 2%;
+}
+
+button{
+    padding: 15px 20px;
+    background-color: #28a745;
+    border-color: rgba(12, 129, 12, 0);
+    font-weight: bold;
+    color: white;
+}
