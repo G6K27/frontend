@@ -1,0 +1,43 @@
+*{
+    background-color: rgb(34, 122, 138);
+}
+
+
+/*BODY*/
+
+body{
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+/*HEADER*/
+
+#logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav{
+    font-size: 1.6em;
+    background-color: rgb(75, 49, 25);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/*MAIN*/
+
+h1 h2 h3{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1.4em;
+}
+
+.imageprinc{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+}
