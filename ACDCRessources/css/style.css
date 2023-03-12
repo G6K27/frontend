@@ -1,6 +1,10 @@
-/*DISCOGRAPHIE*/
+body{
+        background: linear-gradient(135deg, black 30%, red 40%, black 30%);
+}
 
-h5{
-    color: red;
-    text-align: center;
+/*CAROUSSEL*/
+
+.caroussel{
+        width: 50rem;
+        margin: auto;
 }
